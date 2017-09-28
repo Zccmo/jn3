@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body,.wrap{
+	width: 100%;
+	height: 100%;
+	background: #eee;
+}
+body{
+	font-size: 62.5%;
+}
+header{
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+}
+.head{
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head span{
+	flex:1;
+	height:100%;
+	font-size: .9rem;
+	line-height: 3rem;
+	text-align: center;
+}
+.head span b{
+	display:inline-block;
+	width: 50%;
+	height: 100%;
+	color:#ccc;
+}
+.head span .on{
+	border-bottom: 3px #09f solid;
+	color:#09f;
+}
+section{
+	width: 100%;
+	height: auto;
+	margin-top:10px;
+	background: #fff;
+	padding:5px 0;
+}
+.cont{
+	width: 90%;
+	margin:10px auto;
+	height: 7rem;
+	border-radius: 10px;
+	border:1px #ccc solid;
+}
+.cont h3{
+	width: 100%;
+	height:50%;
+	background: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px 10px 0 0;
+}
+.cont h3 span{
+	display:inline-block;
+	width: 45%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	color:#fff;
+}
+.cont h3 span img{
+	position: absolute;
+	left:10px;
+	top:10px;
+	width: 20px;
+	height: 20px;
+}
+.cont h3 span b{
+	font-size: 25px;
+	color:#fff;
+}
+.cont .po{
+	width:100%;
+	height: 21%;
+	border-top:4px dotted red;
+	color:#09f;
+	font-size:.7rem;
+	text-indent: 2em;
+}
+.cont .po b{
+	display:inline-block;
+	width: 20px;
+	height: 100%;
+	background: url('./img/b.png') no-repeat;
+	background-size: 80%;
+	background-position: 0px 10px;
+}
+.cont .pt{
+	width:100%;
+	height: 20%;
+	color:#ccc;
+	font-size:.7rem;
+	text-indent: 2em;
+}
+.cont .pt b{
+	display:inline-block;
+	width: 20px;
+	height: 100%;
+	background: url('./img/b.png') no-repeat;
+	background-size: 80%;
+	background-position: 0px -10px;
+}
+.ent h3{
+	background: blue;
+}
+.thr h3{
+	background:purple;
+}
+.ct h3{
+	background: green;
+}
